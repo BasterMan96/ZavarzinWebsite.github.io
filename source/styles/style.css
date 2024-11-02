@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+body {
+    font-family: PT Serif;
+    background: linear-gradient(90deg, #59a15a 0%, #000000 100%);
+}
+.nav-link {
+    color: rgb(59, 166, 68);
+}
+.navbar-nav .nav-link.active {
+color: white;
+}
+.navbar-brand img {
+    width: 41px;
+} 
+.navbar-toggler {
+    color: white;
+    background-color:  rgb(59, 166, 68);
+}
+.sidebar {
+    color: white;
+    background-color: black;
+}
+.card {
+    background: black;
+    color: white;
+    border-color: #43c243;
+    border-width: 2px;
+}
+.card a {
+    text-decoration: none;
+    color: white;
+}
+.sidebar a {
+    text-decoration: none;
+}
+.sidebar {
+    border: 2px solid  #43c243;
+    border-radius: 10px;
+}
+.slide-text {
+    color: white;
+}
+.footer-text {
+    color: white;
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.help-text a {
+    color: white;
+    text-decoration: none;
+}
+.call-anim {
+    animation: Call 2s ease 0s 2 normal forwards;
+}
+@keyframes Call {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+.btn-outline-primary {
+    background-color: black;
+}
+
